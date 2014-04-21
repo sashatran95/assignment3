@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: "Eurostile", Eurostile, Eurostile;
+}
+
+.logo {
+    height: 7rem;
+    width: auto;
+    background-color: #4158aa;
+    padding: 1.5rem 5%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.backimage {
+    overflow: hidden;
+    background-image: url(../images/current%20sales.jpg);
+    background-color: black;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 10rem;
+    font-weight: normal;
+
+}
+
+.title{
+    overflow: hidden;
+    background-color: #4158aa;
+    background-position: top center;
+    background-size: 3rem;
+    font-size: 1.5rem;
+    color: white
+        
+}
+
+header {
+    overflow: hidden;
+    background-color: #4158aa;
+    padding: 1rem -0.5%;
+    
+}
+
+.product {
+    overflow: hidden;
+    background-color: #cfecf5;
+    background-position: top center;
+    background-size: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.company {
+    overflow: hidden;
+    background-color: #cfecf5;
+    background-position: top center;
+    background-size: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.new {
+    overflow: hidden;
+    background-color: #4158aa;
+    background-position: top center;
+    background-size: 3rem;
+    font-size: 2.6rem;
+    color: white
+}
+
+.onsale {
+    overflow: hidden;
+    background-color: #4158aa;
+    background-position: top center;
+    background-size: 3rem;
+    font-size: 2.4rem;
+    color: white
+}
+
+footer {
+    background-color: #4158aa;
+    overflow: hidden;
+
+}
+
+footer p {
+    font-size: .7rem;
+    margin: .5rem 5% 5rem;
+}
+
+footer a{
+    color:black;
+}
+
+ul strong {
+    font-family: "Eurostile", Eurostile, Eurostile;
+    color: #4158aa;
+}
+
+.copyright {
+    font-size: .1rem;
+    color: white
+    
